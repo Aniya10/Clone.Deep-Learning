@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+    
+.hero {
+    width: 100%;
+    min-height: 75vh;
+    background-image: linear-gradient(45deg, #749aee, #0523ac);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 100px;
+    overflow: hidden;
+    position: relative;
+}
+    nav{
+        padding: 10px 0;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    
+    .logo{
+        width: 200px;
+        height: 115px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 15px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #333;
+        font-weight: 400;
+    }
+    
+    .btn{
+        display: inline-block;
+        text-decoration: none;
+        padding: 14px 40px;
+        color: #fff;
+        background-image: linear-gradient(45deg, #f51369, #f51369);
+        font-size: 14px;
+        margin-right: 50px;
+        font-weight: 400;
+        
+}
+
+
+p{
+    color: #fff;
+    font-size: large;
+}
+
+h1{
+    color:#fff
+}
+
+.img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    max-width: 400px; 
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0; 
+    
+}
+
+.left {
+    width: 30%;
+    height: 505px;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid rgb(209, 203, 203);
+    background-color: lightgrey;
+    border-radius: 5%;
+
+}
+.leftP{
+    color: black;
+}
+.left h1{
+    color: grey ;
+}
+
+.right {
+    width: 70%;
+    padding: 30px;
+    padding-left: 20px;
+    color: gray;
+    align-items: start;
+}
+
+iframe {
+    width: 100%;
+    height: 65%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color: black;
+}
+
+.right p{
+    color: gray;
+}
+
+ul {
+    margin-left: 30px;
+    list-style-type: circle;
+    padding: 0;
+    color: gray;
+}
+
+ul li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #f51369, #f51369);
+    font-size: 14px;
+    margin-right: 50px;
+    font-weight: 400;
+}
+
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color:  #f51369;
+    border-style: solid;
+    border: 1px solid #f51369;
+    background-color: #fff;
+    font-size: 14px;
+    margin-right: 50px;
+    font-weight: 400;
+}
+
+.navbar2 {
+    padding: 10px;
+    margin-top: 20px;
+    top: 50%;
+}
+
+.navbar2 nav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.navbar2 p {
+    font-weight: bold;
+    color: gray;
+    margin-right: auto; 
+}
+
+.navbar2 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar2 li {
+    margin-left: 10px;
+}
+
+
+
+.btn3 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 20px; 
+    color: gray;
+    background-color: white;
+    font-size: 14px;
+    margin-right: 10px; 
+    font-weight: 400;
+    border-radius: 20px; 
+}
+
+
+.btn3:hover {
+    background-image: linear-gradient(45deg, #f51369, #f51369);
+}
+
+.c1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.c1 i{
+    max-width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: larger;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.hero1 {
+    background-color: rgb(75, 74, 74);
+    text-align: center;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: pink;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 24px;
+    margin: 0 5px;
+}
